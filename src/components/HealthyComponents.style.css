@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Georgia";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/GeorgiaFont.ttf);
+}
+@font-face {
+  font-family: "TT";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 5rem;
+}
+
 .container {
   display: flex;
 }
@@ -7,15 +23,40 @@
 } */
 
 .content-list {
+  width: 500px;
   display: inline-block;
+  margin-bottom: 9rem;
 }
 
 .list-item {
+  display: flex;
   align-items: center;
   padding: 1em 1.5em;
   text-align: left;
   background-color: #fff;
   border-radius: 0.375em;
   box-shadow: 0 0 0.5em 0.2em rgb(0 0 0 / 5%);
-  /* transform: rotate(270deg);  */
+}
+
+.list-title {
+  color: #24542c;
+  grid-area: 1/1/1/6;
+  font-family: Georgia;
+  font-size: 3.125rem;
+  width: 800px;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.l1-img {
+  height: 2.25em;
+  max-width: 2.25em;
+  display: flex;
+}
+
+.img-content {
+  width: 400px;
+  padding-left: 1em;
+  color: #24542c;
+  font-family: TT;
 }

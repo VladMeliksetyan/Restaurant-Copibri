@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "TT";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
+}
+
+.container {
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-left: 38%;
+  font-size: 3.125rem;
+  color: #24542c;
+  font-family: TT;
+}
+
+/* .nav-bar{
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: visible;
+   justify-content: center;
+    display: flex;
+} */
+
+.navbar-el {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  overflow: visible;
+  justify-content: center;
+  display: flex;
+  font-family: TT;
+}
+
+.btn {
+  right: 300px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #24542c;
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  border-radius: 1em;
+  cursor: default;
+  height: 2em;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+  margin-left: 0.9em;
+}
+
+

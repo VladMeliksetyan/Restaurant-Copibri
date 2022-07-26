@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "TT";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
+}
+
+.container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #fff;
+}
+
+.flex {
+  padding-left: 1.5rem;
+  width: 100%;
+  max-width: 100em;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-list {
+  width: 50%;
+  list-style: none;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  overflow: visible;
+  display: flex;
+}
+
+.item {
+  color: black;
+  font-family: TT;
+  margin-right: 1.5rem;
+  padding-right: 1rem;
+  width: 14rem;
+  font-weight: bolder;
+}
+
+.footer-bar {
+  float: right;
+}
+
+.footer-bar-item {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 0.375em;
+  width: 100%;
+  align-items: center;
+}
+
+.bar-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 0.75em;
+  margin-right: 1rem;
+}
+
+.bar-day {
+  position: relative;
+  display: inline-block;
+  width: 14em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  width: 22em;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.state {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 0.85rem;
+  color: #d86237;
+  white-space: nowrap;
+}
+.state_sybl {
+  content: "";
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  background: currentColor;
+  bottom: 0.1em;
+  margin-right: 0.5em;
+  border-radius: 100%;
+}
+
+.state-text {
+  font-size: 0.8em;
+  line-height: 1;
+}
+
+
+.row{
+    content: "";
+    display: block;
+    width: 1px;
+    height: auto;
+    background: #000;
+    position: absolute;
+    top: -1em;
+    bottom: -1em;
+    left: 100%;
+}

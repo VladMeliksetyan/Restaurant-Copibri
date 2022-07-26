@@ -1,4 +1,3 @@
-import Menus from "./Menus";
 import logo from "../assets/images/icon.png";
 import instaIcon from "../assets/images/insta.png";
 import "./navbar.style.css";
@@ -10,9 +9,7 @@ const NavBar = () => {
         <img src={logo}></img>
       </a>
       <ul>
-        <li>
-          <Menus />
-        </li>
+        <li class="menus">Menus</li>
         <li>MISSION</li>
         <li>CONTACT</li>
         <li>

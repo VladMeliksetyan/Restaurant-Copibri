@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "TT";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
+}
+
 .nav-container ul {
   list-style: none;
   height: 50%;
@@ -10,6 +15,7 @@
   writing-mode: tb-rl;
   transform: rotate(-180deg);
   align-self: center;
+  cursor: pointer;
 }
 
 .nav-container {
@@ -18,12 +24,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: TT;
+  
 }
 
 .l-i {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .menus {
@@ -37,13 +46,14 @@
   color: #24542c;
   background-color: #ffffff;
   border: 1px solid currentColor;
-  border-radius: 0.8em;
+  border-radius: 1em;
   cursor: default;
-  height: 5em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  height: 4em;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
   justify-content: center;
   align-self: center;
+  cursor: pointer;
 }
 
 .instaIcon {

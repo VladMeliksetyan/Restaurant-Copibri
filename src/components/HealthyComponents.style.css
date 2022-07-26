@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+/* ul {
+    width: 50%;
+} */
+
+.content-list {
+  display: inline-block;
+}
+
+.list-item {
+  align-items: center;
+  padding: 1em 1.5em;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 0.375em;
+  box-shadow: 0 0 0.5em 0.2em rgb(0 0 0 / 5%);
+  /* transform: rotate(270deg);  */
+}

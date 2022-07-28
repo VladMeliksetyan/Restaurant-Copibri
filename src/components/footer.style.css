@@ -3,10 +3,19 @@
   src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
 }
 
-.container {
+
+@media only screen and (max-width: 25rem) {
+
+  .container-footer{
+    display: none !important;
+  }
+}
+.container-footer {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #fff;
+  display: block;
+  
 }
 
 .flex {
@@ -18,6 +27,7 @@
   flex-direction: row;
   display: flex;
   justify-content: space-between;
+  z-index: 120;
 }
 
 .info-list {
@@ -28,6 +38,8 @@
   padding-bottom: 0.5em;
   overflow: visible;
   display: flex;
+  z-index: 3;
+  background: white;
 }
 
 .item {
@@ -65,16 +77,15 @@
 .bar-day {
   position: relative;
   display: inline-block;
-  width: 14em;
-  padding-right: 1.5em;
+  padding-right: 4rem;
   padding-left: 1.5em;
-  width: 22em;
 }
 
 .arrow {
+  position: relative;
   border: solid black;
   border-width: 0 3px 3px 0;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -105,15 +116,77 @@
   line-height: 1;
 }
 
+.row {
+  /* display: block; */
+  width: 1px;
+  height: 3rem;
+  background: #000;
+}
 
-.row{
-    content: "";
-    display: block;
-    width: 1px;
-    height: auto;
-    background: #000;
-    position: absolute;
-    top: -1em;
-    bottom: -1em;
-    left: 100%;
+.time {
+  font-size: small;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  white-space: nowrap;
+}
+
+.footer-bottom {
+  display: flex;
+  clear: both;
+  padding-top: 6em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 5.25em;
+  height: auto;
+  color: #24542c;
+  margin-left: 5rem;
+  font-size: 2em;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  margin-left: auto;
+  font-size: 0.625em;
+  color: #000;
+  opacity: 0.5;
+  margin-right: 5rem;
+}
+
+.footer-btn {
+  right: 200px;
+  display: inline-flex;
+  align-items: center;
+  height: 2.5em;
+  padding: 0 1rem;
+  color: #2a5631;
+  border: 1px solid currentColor;
+  border-radius: 0.375em;
+  box-shadow: 0 0 0.5em 0.2em rgb(0 0 0 / 5%);
+  cursor: default;
+  transition: all 0.3s ease-out;
+}
+
+
+.footer-btn-filled{
+  color: #fff;
+  background-color: #2a5631;
+  border-color: transparent;
+  
+}
+
+
+.footer-btn__label {
+  font-size: 0.75rem;
+  display: block;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
 }

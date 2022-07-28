@@ -5,13 +5,15 @@
 
 .nav-container ul {
   list-style: none;
-  height: 50%;
+  height: 93%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: absolute;
 }
 
 .nav-container ul li {
+  margin-top: 10rem;
   writing-mode: tb-rl;
   transform: rotate(-180deg);
   align-self: center;
@@ -19,13 +21,24 @@
 }
 
 .nav-container {
-  border-right: 2px solid #24542c;
+  /* border-right: 2px solid #24542c; */
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: TT;
-  
+  position: sticky;
+  top:0
+}
+.nav-container::after {
+  content: '';
+  height: 93%;
+  width: 2px;
+  background: #24542c;
+  margin-top: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .l-i {
@@ -33,27 +46,26 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-top: 3rem;
+  
 }
 
 .menus {
   right: 300px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #24542c;
   background-color: #ffffff;
-  border: 1px solid currentColor;
-  border-radius: 1em;
+  border: 2px solid currentColor;
+  border-radius: 2em;
   cursor: default;
-  height: 4em;
+  height: 5em;
   padding-right: 0.4em;
   padding-left: 0.4em;
   justify-content: center;
-  align-self: center;
   cursor: pointer;
+  font-weight: bold;
+  margin-top: 5rem;
 }
 
 .instaIcon {

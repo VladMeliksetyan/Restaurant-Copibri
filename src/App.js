@@ -2,26 +2,27 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import HealthyComponents from "./components/HealthyComponents";
-import Menus from "./components/Menus"
+import Menus from "./components/Menus";
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div class="parent">
-      <div class="section" contenteditable>
+      <div class="section1">
         <NavBar />
       </div>
-      <div class="section page-content" contenteditable>
-        <header class="section" contenteditable>
+      <div class="section page-content">
+        <header class="section">
           <Header />
-          
         </header>
-        <main class="section" contenteditable>
+        <main >
           <HealthyComponents />
           <Menus />
+          <Main />
         </main>
-        <footer class="section" contenteditable>
-          <Footer/>
+        <footer>
+          <Footer />
         </footer>
       </div>
     </div>

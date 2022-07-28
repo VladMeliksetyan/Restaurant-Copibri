@@ -7,11 +7,12 @@
   src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
 }
 
-.content {
+.content-helthy {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-left: 5rem;
+  margin-top: 5rem;
 }
 
 .container {
@@ -46,7 +47,38 @@
   width: 800px;
   align-items: center;
   margin-bottom: 3rem;
+  position: relative;
+ 
+  
 }
+
+@media only screen and (max-width: 25rem) {
+  .list-title{
+    z-index: 100;
+    width: 23rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+  }
+  .whole-container{
+    width: 25rem;
+  }
+  .banner::before{
+    display: none !important;
+  }
+  .content-helthy{
+    margin-left: unset;
+  }
+  .content-list{
+    margin-top: 7rem;
+    margin-left: 1rem;
+    width: 21rem;
+  }
+  .banner-mobile{
+    display: block !important;
+  }
+}
+
+
 
 .l1-img {
   height: 2.25em;
@@ -59,4 +91,42 @@
   padding-left: 1em;
   color: #24542c;
   font-family: TT;
+}
+
+
+.banner {
+  width: 100%;
+}
+
+.banner::before{
+  content: "";
+  display: block;
+  width: 75%;
+  height: calc(100% + 4.8em);
+  background: #f2e8d8;
+  position: absolute;
+  bottom: 20rem;
+  left: 25%;
+  border-bottom-left-radius: 50%;
+  position: relative;
+  outline: none;
+}
+
+
+.whole-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.banner-mobile{
+  content: "";
+  display: none;
+  width: 23rem;
+  height: 22rem;
+  background: #f2e8d8;
+  position: absolute;
+  outline: none;
+  
 }

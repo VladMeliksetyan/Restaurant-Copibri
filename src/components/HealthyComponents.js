@@ -5,11 +5,15 @@ import l3_logo from "../assets/images/l3.png";
 
 const HealthyComponents = () => {
   return (
-    <div class="content">
+    <div class="whole-container">
+      <span class="banner-mobile"/>
+    <div className="content-helthy">
       <h1 class="list-title">
         Plats énergisants à partir d’ingrédients de qualité
       </h1>
+      
       <ul class="content-list">
+        
         <li class="list-item">
           <span class="l1-img">
             <img src={l1_logo} alt="logo" />
@@ -34,6 +38,8 @@ const HealthyComponents = () => {
           <span class="img-content">Restauration durable</span>
         </li>
       </ul>
+    </div>
+      <div className="banner"></div>
     </div>
   );
 };

@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Georgia";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/GeorgiaFont.ttf);
+}
+
+.content-main {
+  width: 100%;
+  max-width: 100em;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.imgPosition {
+  margin-top: 7rem;
+  height: 60rem;
+}
+
+.imgPosition img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #24542c;
+  margin-left: 4rem;
+  font-size: 3.5rem;
+  height: auto;
+  width: 100%;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-btn {
+  right: 200px;
+  display: inline-flex;
+  align-items: center;
+  height: 2.5em;
+  padding: 0 1rem;
+  color: #2a5631;
+  border: 1px solid currentColor;
+  border-radius: 0.375em;
+  box-shadow: 0 0 0.5em 0.2em rgb(0 0 0 / 5%);
+  cursor: default;
+  transition: all 0.3s ease-out;
+  width: 9rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.main-btn-filled {
+  color: #fff;
+  background-color: #2a5631;
+  border-color: transparent;
+}
+
+.main-btn__label {
+  font-size: 0.75rem;
+  display: block;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.red-circle {
+  --bg-opacity: 1;
+  background-color: #d86237;
+  background-color: rgba(216, 98, 55, var(--bg-opacity));
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  font-size: 1.1rem;
+  position: absolute;
+  display: flex;
+  right: -10%;
+  top: -5%;
+}
+
+.img_redCrl {
+  position: relative;
+  margin-left: -5rem;
+}
+
+.bottom-img {
+  position: absolute;
+  width: 40%;
+  bottom: -5%;
+  left: -5%;
+  display: block;
+  height: 40%;
+}
+
+.blue-crcl {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  position: absolute;
+  background-color: #7d9ab5; 
+  left: 16%;
+  bottom: -8%;
+}
+
+@media only screen and (max-width: 25rem) {
+
+  .mainImg{
+    width: 23rem;
+  }
+  .red-circle{
+    width: 7rem;
+    height: 7rem;
+    left: 20.7rem;
+  }
+  .content-main{
+    margin-left: unset;
+    align-items: unset;
+    flex-direction: column;
+  }
+  .text{
+    width: 25rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+  }
+  .blue-crcl{
+    width: 7rem;
+    height: 7rem;
+    left: 15%;
+  }
+  .bottom-img{
+    width: 15%;
+    bottom: 2%;
+    left: 11%;
+  }
+}
+
+.mainImg{
+  display:block ;
+  margin: 2rem;
+  
+}

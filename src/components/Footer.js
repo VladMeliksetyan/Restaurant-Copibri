@@ -7,8 +7,9 @@ const Footer = () => {
         <ul class="info-list">
           <li class="item">955 route Jean-Gauvin, Québec (QC) G1X 4M5</li>
           <li class="item">418 871-8414</li>
-          <li class="item"> bonjour@restaurantcolibri.ca</li>
           <li class="item"></li>
+          <li class="item"> bonjour@restaurantcolibri.ca</li>
+          
         </ul>
         <div class="footer-bar">
           <span class="footer-bar-item">

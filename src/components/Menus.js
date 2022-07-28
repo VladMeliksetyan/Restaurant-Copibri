@@ -7,7 +7,7 @@ const Menus = () => {
         <ul class="navbar-el">
           <li class="btn">PITAS</li>
           <li class="btn">Salades garnies et énergisantes</li>
-          <li class="btn">Déjeuners</li>
+          <li class="btn3">Déjeuners</li>
           <li class="btn">Collations</li>
         </ul>
       </div>

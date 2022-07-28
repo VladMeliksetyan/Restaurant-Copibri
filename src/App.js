@@ -13,7 +13,7 @@ function App() {
         <NavBar />
       </div>
       <div class="section page-content">
-        <header class="section">
+        <header class="section2">
           <Header />
         </header>
         <main >

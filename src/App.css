@@ -30,5 +30,11 @@ ul li {
   .section1{
    display: none;
   }
-
+  .section2{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 25rem;
+    z-index: 100;
+  }
 }

@@ -8,6 +8,7 @@ const Footer = () => {
           <li class="item">955 route Jean-Gauvin, Québec (QC) G1X 4M5</li>
           <li class="item">418 871-8414</li>
           <li class="item"> bonjour@restaurantcolibri.ca</li>
+          <li class="item"></li>
         </ul>
         <div class="footer-bar">
           <span class="footer-bar-item">
@@ -32,7 +33,7 @@ const Footer = () => {
         </a>
         <span class="footer-right">
           <span>Design et code par MamboMambo</span>
-          <span>Tous droits réservés - Restaurant Colibri ©2019</span>
+          <span class="footer-right-2">Tous droits réservés - Restaurant Colibri ©2019</span>
         </span>
       </div>
     </div>

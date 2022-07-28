@@ -54,7 +54,6 @@
 
 @media only screen and (max-width: 25rem) {
   .list-title{
-    z-index: 100;
     width: 23rem;
     margin-left: 1rem;
     font-size: 2.5rem;

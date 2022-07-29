@@ -104,46 +104,44 @@
   border-radius: 50%;
   font-size: 1.1rem;
   position: absolute;
-  background-color: #7d9ab5; 
+  background-color: #7d9ab5;
   left: 16%;
   bottom: -8%;
 }
 
 @media only screen and (max-width: 25rem) {
-
-  .mainImg{
+  .mainImg {
     width: 23rem;
   }
-  .red-circle{
+  .red-circle {
     width: 7rem;
     height: 7rem;
     left: 20.7rem;
   }
-  .content-main{
+  .content-main {
     margin-left: unset;
     align-items: unset;
     flex-direction: column;
   }
-  .text{
+  .text {
     width: 25rem;
     font-size: 2rem;
     margin-top: 5rem;
     margin-left: 3rem;
   }
-  .blue-crcl{
+  .blue-crcl {
     width: 7rem;
     height: 7rem;
     left: 15%;
   }
-  .bottom-img{
+  .bottom-img {
     width: 15%;
     bottom: 2%;
     left: 11%;
   }
 }
 
-.mainImg{
-  display:block ;
+.mainImg {
+  display: block;
   margin: 2rem;
-  
 }

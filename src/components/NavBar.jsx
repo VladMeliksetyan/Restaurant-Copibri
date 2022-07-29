@@ -1,23 +1,24 @@
+import React from "react";
 import logo from "../assets/images/icon.png";
 import instaIcon from "../assets/images/insta.png";
 import "./navbar.style.css";
 
-const NavBar = () => {
+function NavBar() {
   return (
     <div className="nav-container">
-      <a class="l-i">
-        <img src={logo}></img>
+      <a className="l-i" href="/">
+        <img src={logo} alt="img" />
       </a>
       <ul>
-        <li class="menus">Menus</li>
+        <li className="menus">Menus</li>
         <li>MISSION</li>
         <li>CONTACT</li>
         <li>
-          <img class="instaIcon" src={instaIcon} alt="" />
+          <img className="instaIcon" src={instaIcon} alt="" />
         </li>
       </ul>
     </div>
   );
-};
+}
 
 export default NavBar;

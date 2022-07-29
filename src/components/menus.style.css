@@ -17,27 +17,26 @@
   font-family: TT;
 }
 @media only screen and (max-width: 25rem) {
-  .title{
-    margin-left:unset; 
+  .title {
+    margin-left: unset;
     font-size: 2.125rem;
     color: #24542c;
     font-family: TT;
   }
-  .navbar-el{
-    justify-content:unset !important;
+  .navbar-el {
+    justify-content: unset !important;
     width: 82%;
     flex-wrap: wrap;
   }
-  .btn{
+  .btn {
     margin-top: 1rem;
+    margin-right: unset !important;
   }
-  .btn3{
+  .btn3 {
     margin-top: 1rem;
     margin-left: 4rem;
   }
 }
-
-
 
 .navbar-el {
   margin-top: 1em;
@@ -47,7 +46,6 @@
   justify-content: center;
   display: flex;
   font-family: TT;
-
 }
 
 .btn {
@@ -68,6 +66,7 @@
   align-self: center;
   cursor: pointer;
   margin-left: 0.9em;
+  margin-right: 1rem;
 }
 
 .btn3 {
@@ -88,5 +87,3 @@
   align-self: center;
   cursor: pointer;
 }
-
-

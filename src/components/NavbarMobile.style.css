@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "TT";
+  src: url(/home/vladimir/react-page/src/assets/images/fonts/TT.ttf);
+}
+
+.NBM-container {
+  display: none;
+}
+@media only screen and (max-width: 25rem) {
+  .NBM-container {
+    display: flex;
+    width: 25rem;
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+  }
+  .menuNB {
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: 98;
+  }
+  .ul-navbarM {
+    font-size: 0.7rem;
+    font-family: TT;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #24542c;
+  }
+
+  .menus-btn-nbm {
+    right: 300px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid currentColor;
+    border-radius: 2em;
+    cursor: default;
+    width: 5em;
+    height: 1.7rem;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .instaIconM {
+    width: 18px;
+    height: 18px;
+    align-self: center;
+    right: 300px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid currentColor;
+    border-radius: 3em;
+    cursor: default;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-BottomM {
+    position: absolute;
+    width: 22rem;
+    height: 77rem;
+    display: flex;
+    clear: both;
+    padding-top: 6em;
+    align-items: center;
+  }
+  .footer-logoM {
+    width: 5.25em;
+    height: auto;
+    color: #24542c;
+    margin-left: 1rem;
+    font-size: 1.7em;
+  }
+
+  .footer-rightM {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    margin-left: auto;
+    font-size: 0.525em;
+    color: #000;
+    opacity: 0.5;
+    flex-wrap: wrap;
+  }
+  .info-listM {
+    list-style: none;
+    width: 50%;
+    list-style: none;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: visible;
+    display: flex;
+    z-index: 3;
+    background: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: visible;
+    display: flex;
+    z-index: 3;
+    background: white;
+  }
+  .info-M {
+    margin-top: 32rem;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item-M {
+    color: black;
+    font-family: TT;
+    margin-right: 1.5rem;
+    padding-right: 1rem;
+    width: 11rem;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  .peper {
+    width: 25%;
+    position: absolute;
+    right: -7%;
+    top: 20%;
+  }
+
+  .pink-crcl {
+    --bg-opacity: 1;
+    background-color: #ecb4aa;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    padding: 1em;
+    position: absolute;
+    bottom: -28%;
+    left: -1rem;
+  }
+  .pinkImg {
+    width: 30%;
+    position: absolute;
+    bottom: -35%;
+    left: -5%;
+  }
+}
